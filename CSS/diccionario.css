@@ -1,0 +1,64 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#search-input {
+    margin: 10px;
+    padding: 5px;
+    width: 100%;
+    max-width: 300px;
+}
+
+#word-list {
+    list-style-type: none;
+    padding: 0;
+    max-height: 300px;
+    overflow-y: auto;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    max-width: 300px;
+}
+
+#word-list li {
+    cursor: pointer;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%; 
+    max-width: 300px;
+}
+
+#show-definition {
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#show-definition:hover {
+    background-color: #0056b3;
+}
+
+#definition-area {
+    width: 100%;
+    max-width: 600px;
+    margin: 10px auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Validación de Archivos</title>
+    <link rel="stylesheet" type="text/css" href="CSS/Validacion.css">
+    <script src="JS/Validacion.js"></script>
+</head>
+<body>
+    <form id="upload-form" enctype="multipart/form-data">
+        <label for="file-upload" id="file-label">
+            Seleccionar archivo
+            <input type="file" id="file-upload" accept=".jpg, .png, .gif" style="display: none">
+        </label>
+        <button type="submit">Subir archivo</button>
+    </form>
+    <p id="message"></p>
+</body>
+</html>
